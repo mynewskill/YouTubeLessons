@@ -104,9 +104,9 @@ button:hover,
   width: 1.625rem;
   height: 0.125rem;
   background-color: #2d314d;
-  -webkit-transition: all 300ms ease-in-out;
-  -o-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
+  -webkit-transition: all 300ms ease-in-outg;
+  -o-transition: all 300ms ease-in-outg;
+  transition: all 300ms ease-in-outg;
 }
 
 .header__menu > span:not(:last-child) {
