@@ -1,0 +1,28 @@
+//mixins - allow you to define styles that can be re-used throughout your stylesheet
+
+//640px, 1024px, 1400px
+$breakpoints-up: (
+  "medium": "640px",
+  "large": "1024px",
+  "xlarge": "1400px",
+);
+
+//639px, 1023px, 1399px
+$breakpoints-down: (
+  "medium": "639.9px",
+  "large": "1023.9",
+  "xlarge": "1399.9px",
+);
+
+//mixin with function
+@mixin breakpoint-up($size) {
+  @media (min-width: map-get($breakpoints-up, $size)) {
+    @content; //set content when the function used
+  }
+}
+
+@mixin breakpoint-down($size) {
+  @media (max-width: map-get($breakpoints-down, $size)) {
+    @content;
+  }
+}

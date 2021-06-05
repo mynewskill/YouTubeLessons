@@ -1,0 +1,26 @@
+//primary
+$darkBlue: hsl(233, 26%, 24%);
+$limeGreen: hsl(136, 65%, 51%);
+$brightCyan: hsl(192, 70%, 51%);
+//neutral
+$grayishBlue: hsl(233, 8%, 62%);
+$lightGrayish: hsl(220, 16%, 96%);
+$veryLightGray: hsl(0, 0%, 98%);
+$white: hsl(0, 0%, 100%);
+//font sizes
+$font-size-map: (
+  "xx-small": 0.25rem,
+  "x-small": 0.5rem,
+  "small": 0.875rem,
+  "medium": 1rem,
+  "large": 1.125rem,
+  "x-large": 1.3rem,
+  "xx-large": 1.6rem,
+);
+$font-weight-map: (
+  "regular": 300,
+  "medium": 400,
+  "bold": 700,
+);
+$fsize-14: 0.875rem; //14px
+$fsize-18: 1.125rem; //18px
