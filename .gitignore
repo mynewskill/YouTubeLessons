@@ -1,4 +1,7 @@
 *.scss
+/blocks
+/pages
+/vendor
 .DS_Store
 .DS_Store?
 ._*
