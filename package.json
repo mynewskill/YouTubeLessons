@@ -1,0 +1,25 @@
+{
+  "name": "easybankfromfrontendmentor",
+  "version": "1.0.0",
+  "description": "A bank landing page",
+  "main": "./script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mynewskill/YouTubeLessons.git"
+  },
+  "author": "Pavel Kuzmin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mynewskill/YouTubeLessons/issues"
+  },
+  "homepage": "https://github.com/mynewskill/YouTubeLessons#readme",
+  "devDependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  }
+}

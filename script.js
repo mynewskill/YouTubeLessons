@@ -1,6 +1,8 @@
+//save link
 const btnHamburger = document.querySelector("#btnHamburger");
+
+//add event listener to the link
 btnHamburger.addEventListener("click", function () {
-  console.log("open hamburger");
   if (btnHamburger.classList.contains("open")) {
     btnHamburger.classList.remove("open");
   } else {
