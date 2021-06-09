@@ -1,3 +1,5 @@
+require("./style.css");
+
 //save link
 const btnHamburger = document.querySelector("#btnHamburger");
 

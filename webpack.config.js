@@ -8,14 +8,15 @@ const isProduction = process.env.NODE_ENV == "production";
 const stylesHandler = "style-loader";
 
 const config = {
-  entry: "./script.js",
+  entry: "./src/script.js",
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "index_bundle.js",
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./index.html",
+      title: "Hello Webpack!",
+      template: "./src/index.html",
     }),
     // Add your plugins here
     // Learn more about plugins from https://webpack.js.org/configuration/plugins/
