@@ -1,0 +1,1 @@
+(()=>{var e=document.querySelector("#btnHamburger");e.addEventListener("click",(function(){e.classList.contains("open")?e.classList.remove("open"):e.classList.add("open")}))})();
