@@ -3,6 +3,7 @@
 /pages
 /vendor
 /node_modules
+settings.json
 .DS_Store
 .DS_Store?
 ._*
