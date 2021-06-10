@@ -9,7 +9,9 @@
 ### Copy:
 
 `Ctrl+X` cut and save
+
 `Ctrl+Shift+K` delete line without save
+
 `Ctrl+C` copy selected text
 
 ### Selection:
